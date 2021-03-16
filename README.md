@@ -1,17 +1,22 @@
-# github-style
+# github-style (AC's Fork)
 
-## 已知问题
+AC Forked github.com:MeiK2333/github-style.git because it hard-coded the top menu
+and AC wanted to have "Photos" and "Posts" on the top menu.
 
-- 多个可点击元素点击后会出现蓝色的边框
-- 移动端模式下点击热力图可能会导致样式错乱
+Unfortunately, AC doesn't know his way around `go` well at all, and only slightly
+more HTML/CSS, so it's been a bit of a hack job. It appears that this theme
+could be further enhanced by enabling 
+[Hugo Menus](https://gohugo.io/content-management/menus/).
+Indeed, there's a lot of opportunity for improvement in the theme, but it's
+conveneint, and it really is Github style -- right down to dark mode, which is
+pretty cool.
 
-## TODO
+## Specific Additions:
+* Adding any new `section` (directly under 'content') should cause that section to show up in the top menu
+* Adding content/photos adds 'photos' in the top menu (as above) but with a `gallery` icon
+* Added attribution for gallery icon. Maybe I can find an attribution-free one in the future?
 
-- 评论
-- 自定义菜单
-- 更多链接平台支持
-- 热力图和底部列表的时区问题
-
+# Original Instructions
 ## Init hugo site
 
 ```bash
