@@ -17,7 +17,6 @@
               </svg>
               Overview
             </a>
-
             {{ range .Site.Sections }}
             {{ $section_count := ( sub (len (where .Site.RegularPages "Section" "in" .Section )) 1) }}
             {{ $current_section := lower .Type | singularize }}
