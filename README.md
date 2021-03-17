@@ -27,6 +27,9 @@ cover: /path/to/cover_img.png
 ## Note
 * Reminder to self to occassionally see if [MeiK2333](https://github.com/MeiK2333/github-style) has updated upstream and follow [this process](https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository#7244456) to rebase if so. Last checked 2021-03-16.
 
+## Note
+* Reminder to self to occassionally see if [MeiK2333](https://github.com/MeiK2333/github-style) has updated upstream and follow [this process](https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository#7244456) to rebase if so. Last checked 2021-03-16,
+
 # Original Instructions
 ## Init hugo site
 
