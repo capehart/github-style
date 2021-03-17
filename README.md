@@ -15,6 +15,14 @@ pretty cool.
 * Adding any new `section` (directly under 'content') should cause that section to show up in the top menu
 * Adding content/photos adds 'photos' in the top menu (as above) but with a `gallery` icon
 * Added attribution for gallery icon. Maybe I can find an attribution-free one in the future?
+* If the post section is "photos" and the post is pinned and has a "cover" image path, it will get included in the overview card.
+
+```
+---
+pin: true
+cover: /path/to/cover_img.png
+---
+```
 
 ## Note
 * Reminder to self to occassionally see if [MeiK2333](https://github.com/MeiK2333/github-style) has updated upstream and follow [this process](https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository#7244456) to rebase if so. Last checked 2021-03-16.
