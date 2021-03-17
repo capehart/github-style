@@ -57,7 +57,13 @@
 
 
                 <div name="summary" class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                  {{ .Summary | safeHTML }}
+                  <!-- Put the picture in if it's a photo and has a 'cover' attribute in the front matter. -->             {{ if eq .Section "photos" }}
+                      {{ if isset .Params "cover" }}
+                          <img src="{{ .Params.cover }}"/>      
+                      {{ end }}
+                  {{ else }}
+                      Summary: {{ .Summary | safeHTML }}
+                  {{ end }}                          
                 </div>
 
                 <p class="mb-0 f6 text-gray">
