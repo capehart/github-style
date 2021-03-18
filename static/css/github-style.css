@@ -138,3 +138,13 @@ body {
 .pinned-item-desc img {
   max-width: 100%;
 }
+
+.left-thumb{
+    float: left;
+    width: 150px;
+}
+
+.right-thumb {
+    float: right;
+    width: 150px;
+}
